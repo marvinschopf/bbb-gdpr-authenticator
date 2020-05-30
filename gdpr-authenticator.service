@@ -1,0 +1,23 @@
+[Unit]
+Description=GDPR consent landing page / captive portal
+ConditionPathExists=/usr/bin/gdpr-authenticator
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+
+Restart=on-failure
+RestartSec=10
+startLimitIntervalSec=60
+
+WorkingDirectory=/tmp
+ExecStart=/usr/bin/gdpr-authenticator
+
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=gdpr-authenticator
+
+[Install]
+WantedBy=multi-user.target

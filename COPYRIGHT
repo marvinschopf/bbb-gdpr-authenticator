@@ -1,0 +1,15 @@
+All files except src/bulma.min.css and the privacy policy document that is in
+src/index.html and is enclosed in the HTML tag '<div class="content">':
+© by Computerwerk Darmstadt e.V.
+This package is licensed under the Apache License, Version 2.0 <LICENSE-APACHE>
+or <http://www.apache.org/licenses/LICENSE-2.0> or the MIT license <LICENSE-MIT>
+or <http://opensource.org/licenses/MIT>, at your option.
+
+The privacy policy document that is in src/index.html and is enclosed in the
+HTML tag '<div class="content">' has been created by Computerwerk Darmstadt e.V.
+and is released under the terms of CC0 <LICENSE-CC0>.
+
+File src/bulma.min.css:
+© 2020 Jeremy Thomas
+This file is available under the MIT license <LICENSE-MIT> or
+<http://opensource.org/licenses/MIT>.

@@ -1,0 +1,5 @@
+#!/bin/bash -ve
+
+systemctl daemon-reload
+systemctl enable gdpr-authenticator
+systemctl start gdpr-authenticator
