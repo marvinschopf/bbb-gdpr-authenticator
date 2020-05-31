@@ -13,7 +13,7 @@ tokio = {features = ["macros"], version = "0.2.18"}
 [package.metadata.deb]
 maintainer = "Johannes <johannes.barthel@student.kit.edu>"
 copyright = "2020 Computerwerk Darmstadt e.V. <vorstand@computerwerk.org>"
-license-file = ["LICENSE", "3"]
+license-file = ["COPYRIGHT", "0"]
 depends = "$auto, systemd, nginx"
 extended-description = """\
 Consent wall for our Senfcall privacy policy. Implemented to interface with the

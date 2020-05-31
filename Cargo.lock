@@ -236,7 +236,7 @@ dependencies = [
 
 [[package]]
 name = "gdpr-authenticator"
-version = "0.1.3"
+version = "0.1.4"
 dependencies = [
  "tokio",
  "warp",
