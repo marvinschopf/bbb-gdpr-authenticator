@@ -10,7 +10,7 @@ Group=www-data
 
 Restart=on-failure
 RestartSec=10
-startLimitIntervalSec=60
+StartLimitIntervalSec=60
 
 WorkingDirectory=/tmp
 ExecStart=/usr/bin/gdpr-authenticator
