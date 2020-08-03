@@ -1,14 +1,14 @@
 [package]
 name = "gdpr-authenticator"
-version = "0.1.4"
+version = "0.1.5"
 authors = ["Johannes <johannes.barthel@student.kit.edu>"]
 edition = "2018"
 description = "Consent wall for Senfcall privacy policy"
 license = "MIT OR Apache-2.0"
 
 [dependencies]
-warp = "0.2.2"
-tokio = {features = ["macros"], version = "0.2.18"}
+warp = "0.2.4"
+tokio = {features = ["macros"], version = "0.2.22"}
 
 [package.metadata.deb]
 maintainer = "Johannes <johannes.barthel@student.kit.edu>"
