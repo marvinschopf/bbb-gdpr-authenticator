@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", ()=>{
   document.getElementById("yes").addEventListener("click", ()=>{
     // cookie for one week
-    document.cookie = "cookie_consented=true;max-age=604800;path=/;domain=senfcall.de;SameSite=Lax;Secure";
+    document.cookie = "cookie_consented=true;max-age=604800;path=/;domain={{DOMAIN}};SameSite=Lax;Secure";
     let target_url = null;
     try {
       target_url = window.location.search.split("&").map(window.decodeURIComponent).map(s=>s.match(/\?url=(.*)/)).filter(Array.isArray)[0][1];
